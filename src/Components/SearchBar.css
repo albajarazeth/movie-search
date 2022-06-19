@@ -1,0 +1,21 @@
+.search-bar{
+    width: 30%;
+    height: 2rem;
+    font-size: 1rem;
+    margin-right: 2px;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    padding-left: 4px;
+    border: none;
+}
+.submit-btn{
+    height: 2rem;
+    border: none;
+    padding: 0 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.submit-btn{ 
+    cursor: pointer;
+}

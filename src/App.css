@@ -1,0 +1,15 @@
+.app-container{
+    text-align: center;
+}
+.app-content{
+    margin-top: .5rem;
+}
+.main-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1.5rem 0;
+}
+.err{
+    text-align: center;
+}
+

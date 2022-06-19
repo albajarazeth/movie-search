@@ -1,0 +1,23 @@
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.info-text {
+  width: 60%;
+}
+.info-text p {
+  margin-top: 20px;
+}
+.info-heading {
+  font-weight: bold;
+}
+.info-image {
+  margin-bottom: 10px;
+}
