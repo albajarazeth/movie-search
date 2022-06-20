@@ -21,7 +21,7 @@ function App() {
 
    const config = {
         method: 'get',
-        baseURL : `http://www.omdbapi.com/?apikey=${KEY}&`,
+        baseURL : `https://www.omdbapi.com/?apikey=${KEY}&`,
         params:{
             s : `${query}`,
         }
@@ -38,7 +38,7 @@ function App() {
   async function getMovie(x, id){
     const config = {
       method: 'GET',
-      baseURL: `http://www.omdbapi.com/?apikey=${KEY}&`,
+      baseURL: `https://www.omdbapi.com/?apikey=${KEY}&`,
       params: {
      // t : `${x}`,
       plot : 'full',
