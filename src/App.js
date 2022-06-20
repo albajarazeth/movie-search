@@ -14,7 +14,21 @@ function App() {
   async function fetchData(query) {
     const config = {
       method: "get",
-      baseURL: `http://www.omdbapi.com/?apikey=${KEY}&`,
+      baseURL: `https://www.omdbapi.com/?apikey=${KEY}&`,
+      params: {
+        s: `${query}`,
+      },
+    };
+
+    const response = await axios(config);
+    setMovies(response);
+    console.log(movies);
+  }
+
+  async function getMovie(x, id) {
+    const config = {
+      method: "GET",
+      baseURL: `https://www.omdbapi.com/?apikey=${KEY}&`,
       params: {
         s: `${query}`,
       },
